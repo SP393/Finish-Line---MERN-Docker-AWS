@@ -1,0 +1,111 @@
+/* Full page container centering */
+.signup {
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-top: -50px;
+}
+
+/* Image in the left side */
+.img-fluid {
+  height: 100%;
+  width: 80%;
+}
+.signT{
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.signText {
+  font-family: "Outfit", sans-serif;
+  color: #EEEDE7;
+  margin-left: 80px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-underline-offset: 0.5em;
+  margin-top: -20%;
+}
+.signText:hover{
+  color: rgb(180, 101, 214);
+}
+        
+.btn-grad-signup {
+  background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%);
+  margin: 10px;
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 30px;
+  font-size: 17px;
+  display: block;
+}
+
+.btn-grad-signup:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+.title {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.img-fluid {
+    display: none; /* Hide the image on small screens */
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn-grad-signup {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.form-control {
+    font-size: 14px;
+    width: 100%; /* Ensure form inputs are full width */
+}
+
+
+}
+
+@media (max-width: 576px) {
+.row {
+    flex-direction: column; /* Stack the columns on very small screens */
+    text-align: center;
+}
+
+.form-control {
+    font-size: 14px;
+    height: 40px;
+}
+
+.btn-grad-signup {
+    padding: 10px;
+    font-size: 14px;
+}
+}
+.signH{
+padding-top: 50px;
+}
+.signupform{
+margin-top: -50px;
+}
+/* .signupAll{
+margin-top: 20px;
+} */
+
+
+

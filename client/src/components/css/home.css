@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    color: #EEEDE7;
+}
+.container.home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligns text and image side by side */
+  margin-top: -0.1%;
+  column-gap: 10px; /* You can reduce this if needed */
+  
+}
+.line{
+  font-family: "Outfit", sans-serif;
+  font-size: 40px;
+  padding-left: 120px;
+  padding-right: 40px;
+}
+
+p{
+  font-family: "Outfit", sans-serif;
+    font-size: 23px;
+}
+.info {
+  flex: 1;
+  padding-right: 5%; /* Reduced padding to bring the image closer */
+  margin-right: 5px; /* Adjusted to decrease the gap */
+  padding-top: 45px;
+}
+.gif{
+  flex: 1;
+}
+.homeImg {
+  width: 90%;
+  flex: 1;
+  margin-right: 0; /* Removed or set to a minimal value */
+}
+         
+.btn-grad-start {
+  background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+  margin-top: 30px;
+  margin-left: 150px;
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 30px;
+  display: block;
+  width: 40%;
+  font-size: 17px;
+  font-weight: bold;
+  }
+
+  .btn-grad-start:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn-grad-signuphome {
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+    display: block;
+    width: 30%;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .btn-grad-signuphome:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ /* Media query for small devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .line {
+      font-size: 28px; /* Adjust title size for small screens */
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  .info {
+      padding-top: 20px;
+      padding-right: 0;
+  }
+
+  .homeImg {
+      width: 100%;
+  }
+
+  .btn-grad-start, .btn-grad-signuphome {
+      width: 70%; /* Make buttons larger on smaller screens */
+  }
+}
+
+/* Media query for extra small devices (max-width: 576px) */
+@media (max-width: 576px) {
+  .line {
+      font-size: 24px; /* Smaller title font for extra small devices */
+  }
+
+  .btn-grad-start, .btn-grad-signuphome {
+      width: 100%; /* Full width buttons on extra small screens */
+  }
+}

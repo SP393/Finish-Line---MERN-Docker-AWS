@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.navbar{
+    background-color: black;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-nav{
+   margin-right: 10%;
+}
+
+.container-fluid{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-brand{
+    font-family: "Outfit", sans-serif;
+    color: #EEEDE7;
+    margin-left: 80px;
+    font-size: 35px;
+    font-weight: bolder;
+    text-underline-offset: 0.5em;
+}
+.navbar-brand:hover{
+    color: rgb(180, 101, 214);
+}
+
+.nav-link{
+    position: relative;
+    color: #EEEDE7;
+    transition: color 0.3s ease-in-out;
+}
+
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #7bf280;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-link:hover::before, .nav-link.active::before{
+        width: 100%;
+        visibility: true;
+    }
+    .nav-link:hover {
+        color: #EEEDE7; 
+    }
+    a{
+        transition: all 0.15s ease;
+      }
+      .navbar-profile-icon {
+        position: absolute;
+        right: 2rem;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      
+      .profile-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+      
+      .profile-img:hover {
+        transform: scale(1.1);
+      }
+      /* Style for the logout button */
+.logout-btn {
+    background-color: #6a0dad; /* Purple color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  .dropdown-menu{
+    background-color: #6a0dad; 
+    padding: 1px;
+  }
+  .dropdown-menu:hover{
+    background-color: #33164e; 
+  }
+  
+  /* Hover effect */
+  .logout-btn:hover {
+    background-color: #33164e; /* Lighter purple for hover */
+    color: white;
+  }
+  
+    

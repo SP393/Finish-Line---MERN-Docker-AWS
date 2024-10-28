@@ -1,0 +1,12 @@
+#calendar {
+    width: 80%;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  .sx-react-calendar-wrapper{
+    width: 1200px;
+  max-width: 100vw;
+  height: 800px;
+  max-height: 90vh;
+  }

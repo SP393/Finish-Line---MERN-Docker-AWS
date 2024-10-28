@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container.homeTask {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligns text and image side by side */
+  column-gap: 10px; /* You can reduce this if needed */
+  background-color: #201A1A;
+  border-radius: 20px;
+  width: 80%;
+  margin-top: 150px;
+}
+.homeT{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    padding-right: 250px;
+    padding-top: 25px;
+}
+.homeh3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.homeView{
+    gap:0px
+}
+  .btn-grad-stview-task {
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+    margin-top: 10px;
+    padding: 15px 25px;
+    margin-left: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+    display: block;
+    width: 40%;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .btn-grad-stview-task:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ .taskHomeImg{
+    width: 23%;
+    margin-top: -8%;
+    padding-bottom: 10px;
+ }
+ .home-row{
+    gap: 120px;
+ }
+ .homeViewTask{
+    border: none;
+ }
+ .daily{
+ padding: 10px;
+ padding-left: 80px;
+ padding-top: 30px;
+ }
+ .cal{
+    padding-top: 30px;
+    }
+    .calImg{
+     padding-left: 20px;
+     margin-top: -15%;
+    }
+
+    .TrackFlags {
+      width: 150px;  /* Adjust width as necessary */
+      height: auto; /* Maintain aspect ratio */
+      align-items: center;
+      padding-top: 80px;
+    }
+    
+    .trackMan {
+      width: 280px; /* Adjust width as necessary */
+      padding-right: -50px;
+    }
+    .trackMan2 {
+      width: 280px; /* Adjust width as necessary */
+      padding-right: -50px;
+    }
+    .homeTrack{
+      width: 100%;
+      padding: 1px;
+      padding-bottom: 10px;
+      margin-top: -50px;
+      padding-left: 50px;
+    }
+    .hometrack-row {
+      display: flex;
+      flex-wrap: wrap; /* Wrap to new line if too many flags */
+      gap: 70px; /* Add some space between flags */
+      padding-top: 50px;
+      margin-left: 20px;
+    }
+    .trackRoad{
+      margin-top: -120px;
+      width: 90%;
+      height: 150%;
+    }
+    

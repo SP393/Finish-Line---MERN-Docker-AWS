@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: black;
+}
+
+.elevated-box {
+    border: 1px solid #74baf1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px; /* Slightly rounded corners for a softer look */
+    width: 90%;
+    max-width: 900px; /* Increased max-width for better alignment */
+    margin-top: 4%;
+    color: #EEEDE7;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+form {
+    padding: 40px;
+    font-size: 14px;
+}
+
+.form-select{
+  margin-top: 15px;
+}
+
+option {
+    font-size: 14px;
+}
+
+label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500; /* Changed weight for better visibility */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Adjusted margin for better spacing */
+}
+
+.row {
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.form-control, 
+.form-select {
+    padding: 12px; /* Increased padding for better touch targets */
+    font-size: 14px;
+    border-color: #EEEDE7;
+    border-width: 3px;
+    background-color: black;
+    color: #EEEDE7; /* Ensure text color matches */
+    width: 100%; /* Make inputs take the full width */
+    max-width: 600px; /* Set a maximum width for longer input fields */
+}
+
+.form-control:focus, 
+.form-select:focus {
+    background-color: black;
+    border-color: rgb(77, 183, 77); /* Added focus color for better visibility */
+    color: #EEEDE7; 
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #085078 0%, #85D8CE 51%, #085078 100%);
+    margin: 10px auto; /* Centered button */
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 30px;
+    display: block;
+    width: 30%;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.tick img {
+    width: 40%;
+}
+
+.after-submit h5 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+input[type="date"] {
+    color: #EEEDE7;
+}
+
+.bottom {
+    margin-top: 20px; /* Increased top margin for better spacing */
+}
+
+#message{
+  width: 90%;
+  height: 50%;
+}
+
+.btn-grad-more {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    margin: 10px auto; /* Centered button */
+    padding: 15px 25px;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    
+}
+
+.btn-grad-more:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-grad-view {
+    background-image: linear-gradient(to right, #085078 0%, #85D8CE 51%, #085078 100%);
+    margin: 10px auto; /* Centered button */
+    font-size: 17px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;    
+    border-radius: 30px;
+    display: block;
+}
+
+.btn-grad-view:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

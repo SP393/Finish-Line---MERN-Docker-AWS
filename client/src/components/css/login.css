@@ -1,0 +1,105 @@
+/* Full page container centering */
+.login {
+  /* margin-top: 50px; */
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Form on the right side */
+.form-control {
+  height: 45px;
+  font-size: 16px;
+  width: 50%;
+}
+
+.loginText {
+  font-family: "Outfit", sans-serif;
+  color: #EEEDE7;
+  margin-left: 80px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-underline-offset: 0.5em;
+  margin-top: -20%;
+}
+.loginText:hover{
+  color: rgb(180, 101, 214);
+}
+h3 {
+  font-family: "Poppins", sans-serif; 
+  font-size: 30px;
+}
+        
+.btn-grad-login {
+  background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%);
+  margin: 10px;
+  margin-top: 30px;
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 30px;
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.btn-grad-login:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+.loginText {
+    text-align: center;
+    font-size: 28px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.img-fluid {
+    display: none; /* Hide the image on small screens */
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn-grad-login {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.form-control {
+    font-size: 14px;
+    width: 100%; /* Ensure form inputs are full width */
+}
+
+.login {
+    margin-top: 20px;
+    padding: 10px;
+}
+}
+
+@media (max-width: 576px) {
+.row {
+    flex-direction: column; /* Stack the columns on very small screens */
+    text-align: center;
+}
+
+.form-control {
+    font-size: 14px;
+    height: 40px;
+}
+
+.btn-grad-login {
+    padding: 10px;
+    font-size: 14px;
+}
+}
+

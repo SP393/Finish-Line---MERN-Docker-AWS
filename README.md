@@ -1,10 +1,9 @@
 # Finish Line
 
-Finish Line is a robust and advanced MERN stack application designed to help students efficiently manage and track their academic responsibilities, including projects, tests, and assignments. By leveraging 
+Finish Line is a robust and advanced MERN stack application designed to help students efficiently manage and track their academic responsibilities, including projects, tests, and assignments. By leveraging cutting-edge technologies and best practices, the application provides an interactive, visually appealing, and user-friendly platform tailored for productivity and organization. 
 
 https://github.com/user-attachments/assets/ea7f76c5-59f0-4765-ada2-02c9420cb907
 
-cutting-edge technologies and best practices, the application provides an interactive, visually appealing, and user-friendly platform tailored for productivity and organization.
 
 ---
 
